@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:18:1-79:12
+	package
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:19:11-61
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:18:11-69
+	android:versionCode
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:22:22-78
+uses-feature#android.hardware.location.gps
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:24:19-63
+application
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:26:5-77:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ncaung/.android/build-cache/fb9cd670e7659c97d6500770212ccb5b5dbf5d2c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ncaung/.android/build-cache/c6b4e95200008fceb7b395e30d8fca4abe17afb0/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ncaung/.android/build-cache/8023b8871be2ad450262e7e265c6b3831b181a7b/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ncaung/.android/build-cache/bd7e57960d3f97023c2681f32886f9d21b384fb0/output/AndroidManifest.xml:26:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] /home/ncaung/.android/build-cache/121b4058249d95b94a9ca97dba0fcb8c53158d66/output/AndroidManifest.xml:26:5-32:19
+MERGED from [com.android.support:support-v4:25.3.1] /home/ncaung/.android/build-cache/c34686b461a1720a3f0b572c5f16fdd4ac7fda32/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ncaung/.android/build-cache/bbac1cb489b8c25e05038c5101cc6ef46d2a7f3e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ncaung/.android/build-cache/ed45a119569ec4d2a88cfadc3c40371e72db04a5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ncaung/.android/build-cache/926362f4ad8f91838a3f7fb780228641fa981e82/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ncaung/.android/build-cache/2ba0e642dcd245ff6372a36024d783f3b22345d5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/ncaung/.android/build-cache/06cf4740cbad8e3c956627a05487b99235f9b9fa/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:29:9-41
+	android:supportsRtl
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:30:9-35
+	android:allowBackup
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:27:9-35
+	android:icon
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:28:9-43
+	android:theme
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:31:9-40
+activity#com.example.android.persistence.codelab.step1_solution.UsersActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:32:9-36:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:32:19-102
+intent-filter#android.intent.action.MAIN
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:33:13-35:29
+action#android.intent.action.MAIN
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:34:25-66
+activity#com.example.android.persistence.codelab.step1.UsersActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:37:9-41:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:37:19-93
+activity#com.example.android.persistence.codelab.step2.JankShowUserActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:42:9-46:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:42:19-100
+activity#com.example.android.persistence.codelab.step3.BooksBorrowedByUserActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:47:9-51:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:47:19-107
+activity#com.example.android.persistence.codelab.step3_solution.BooksBorrowedByUserActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:52:9-56:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:52:19-116
+activity#com.example.android.persistence.codelab.step4.TypeConvertersActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:57:9-61:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:57:19-102
+activity#com.example.android.persistence.codelab.step4_solution.TypeConvertersActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:62:9-66:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:62:19-111
+activity#com.example.android.persistence.codelab.step5_solution.CustomResultUserActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:67:9-71:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:67:19-113
+activity#com.example.android.persistence.codelab.step5.CustomResultActivity
+ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:72:9-76:20
+	android:name
+		ADDED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml:72:19-100
+uses-sdk
+INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ncaung/.android/build-cache/fb9cd670e7659c97d6500770212ccb5b5dbf5d2c/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ncaung/.android/build-cache/c6b4e95200008fceb7b395e30d8fca4abe17afb0/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ncaung/.android/build-cache/8023b8871be2ad450262e7e265c6b3831b181a7b/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ncaung/.android/build-cache/bd7e57960d3f97023c2681f32886f9d21b384fb0/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ncaung/.android/build-cache/9b76af190e81ba452d88ed8aefe46bdde1f8de2f/output/AndroidManifest.xml:20:5-43
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha1] /home/ncaung/.android/build-cache/150e7ff3dd73749581783e6f09456efa69e15abc/output/AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] /home/ncaung/.android/build-cache/121b4058249d95b94a9ca97dba0fcb8c53158d66/output/AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0-alpha1] /home/ncaung/.android/build-cache/9433d02e376e6414cda532f4742d832859775902/output/AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha1] /home/ncaung/.android/build-cache/d9f7ac582ce99cd723f43c4d62bc2e4c80b3204d/output/AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha1] /home/ncaung/.android/build-cache/15de08408ad7190ba64d762dd461aef4407ec968/output/AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.core:core:1.0.0-alpha1] /home/ncaung/.android/build-cache/0724b7000a8c55d00544c1cebe934a0c9a0b913a/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:adapters:1.3.1] /home/ncaung/.android/build-cache/b5542be7dc3f723cd213209ff847a05336d850d6/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] /home/ncaung/.android/build-cache/f46093b0986123f10e6a0b285fbabd88ced0f927/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:25.3.1] /home/ncaung/.android/build-cache/c34686b461a1720a3f0b572c5f16fdd4ac7fda32/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ncaung/.android/build-cache/bbac1cb489b8c25e05038c5101cc6ef46d2a7f3e/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ncaung/.android/build-cache/ed45a119569ec4d2a88cfadc3c40371e72db04a5/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ncaung/.android/build-cache/926362f4ad8f91838a3f7fb780228641fa981e82/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ncaung/.android/build-cache/2ba0e642dcd245ff6372a36024d783f3b22345d5/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/ncaung/.android/build-cache/06cf4740cbad8e3c956627a05487b99235f9b9fa/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ncaung/.android/build-cache/fb9cd670e7659c97d6500770212ccb5b5dbf5d2c/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ncaung/Desktop/Project/Android/android-persistence/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ncaung/.android/build-cache/fb9cd670e7659c97d6500770212ccb5b5dbf5d2c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ncaung/.android/build-cache/c6b4e95200008fceb7b395e30d8fca4abe17afb0/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ncaung/.android/build-cache/8023b8871be2ad450262e7e265c6b3831b181a7b/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ncaung/.android/build-cache/bd7e57960d3f97023c2681f32886f9d21b384fb0/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ncaung/.android/build-cache/9b76af190e81ba452d88ed8aefe46bdde1f8de2f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/ncaung/.android/build-cache/c34686b461a1720a3f0b572c5f16fdd4ac7fda32/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ncaung/.android/build-cache/bbac1cb489b8c25e05038c5101cc6ef46d2a7f3e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ncaung/.android/build-cache/ed45a119569ec4d2a88cfadc3c40371e72db04a5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ncaung/.android/build-cache/926362f4ad8f91838a3f7fb780228641fa981e82/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ncaung/.android/build-cache/2ba0e642dcd245ff6372a36024d783f3b22345d5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/ncaung/.android/build-cache/06cf4740cbad8e3c956627a05487b99235f9b9fa/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ncaung/.android/build-cache/fb9cd670e7659c97d6500770212ccb5b5dbf5d2c/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ncaung/.android/build-cache/fb9cd670e7659c97d6500770212ccb5b5dbf5d2c/output/AndroidManifest.xml:26:9-47
+provider#android.arch.lifecycle.LifecycleRuntimeTrojanProvider
+ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] /home/ncaung/.android/build-cache/121b4058249d95b94a9ca97dba0fcb8c53158d66/output/AndroidManifest.xml:27:9-31:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] /home/ncaung/.android/build-cache/121b4058249d95b94a9ca97dba0fcb8c53158d66/output/AndroidManifest.xml:29:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] /home/ncaung/.android/build-cache/121b4058249d95b94a9ca97dba0fcb8c53158d66/output/AndroidManifest.xml:31:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] /home/ncaung/.android/build-cache/121b4058249d95b94a9ca97dba0fcb8c53158d66/output/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] /home/ncaung/.android/build-cache/121b4058249d95b94a9ca97dba0fcb8c53158d66/output/AndroidManifest.xml:28:13-81
